@@ -5,7 +5,10 @@ Source code of [Animation-Aware Quadrangulation](http://vcg.isti.cnr.it/Publicat
 ## Build
 
 ```
-cd external/build_CoMISo
+git clone --recursive https://github.com/giorgiomarcias/Animation2Quad.git
+cd Animation2Quad/external
+mkdir build_CoMISo
+cd build_CoMISo
 cmake ../libigl/external/CoMISo
 make
 ```
